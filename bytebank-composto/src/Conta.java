@@ -1,8 +1,8 @@
 class Conta{
-	double saldo;
+	private double saldo;
 	int agencia;
 	int numero;
-	String titular;
+	Cliente titular;
 	
 	
 	void deposita(double valor) {
@@ -30,5 +30,9 @@ class Conta{
 			return false;
 		}
 	}
+
+	public double pegaSaldo() {
+		return this.saldo;
+		
+	}
 }
- //Testando Git
