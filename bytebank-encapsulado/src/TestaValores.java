@@ -8,5 +8,6 @@ public class TestaValores {
 		conta.setNumero(-330);
 		
 		System.out.println(conta.getAgencia());
+		System.out.println("Coloque dinheiro");
 	}
 }
