@@ -18,7 +18,6 @@ public class TesteReferencias {
 		if(primeiraConta == segundaConta) {
 			System.out.println("São a mesma conta");
 			
-			System.out.println(primeiraConta.saldo);
 		}
 	}
 }
